@@ -12,7 +12,7 @@ export function OfflineIndicator() {
     // Initial state  
     setIsOffline(!navigator.onLine)
 
-    // Register event listeners
+    // Register event listeners 
     // const unregister = registerConnectivityListeners({
     //   onOnline: async () => {
     //     setIsOffline(false)
