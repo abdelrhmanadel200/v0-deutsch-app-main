@@ -9,7 +9,7 @@ export function OfflineIndicator() {
   const [isSyncing, setIsSyncing] = useState(false)
 
   useEffect(() => {
-    // Initial state
+    // Initial state  
     setIsOffline(!navigator.onLine)
 
     // Register event listeners
